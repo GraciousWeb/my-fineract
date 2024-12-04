@@ -264,19 +264,19 @@ public class Client extends AbstractAuditableWithUTCDateTimeCustom<Long> {
         this.officeJoiningDate = officeJoiningDate;
 
         if (StringUtils.isNotBlank(firstname)) {
-            this.firstname = firstname.trim();
+            this.firstname = firstname.trim().toUpperCase();
         }
 
         if (StringUtils.isNotBlank(middlename)) {
-            this.middlename = middlename.trim();
+            this.middlename = middlename.trim().toUpperCase();
         }
 
         if (StringUtils.isNotBlank(lastname)) {
-            this.lastname = lastname.trim();
+            this.lastname = lastname.trim().toUpperCase();
         }
 
         if (StringUtils.isNotBlank(fullname)) {
-            this.fullname = fullname.trim();
+            this.fullname = fullname.trim().toUpperCase();
         }
 
         if (clientParentGroup != null) {
