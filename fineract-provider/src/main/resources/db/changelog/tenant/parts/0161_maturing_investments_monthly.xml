@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements. See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership. The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License. You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied. See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+-->
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <changeSet id="deposit-account-maturity-report-1" author="fineract">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+                SELECT COUNT(*)
+                FROM information_schema.tables
+                WHERE table_name IN ('m_deposit_account_term_and_preclosure', 'm_savings_account', 'm_client');
+            </sqlCheck>
+        </preConditions>
+
+        <sql>
+            <![CDATA[
+            -- Report: Deposit Account Maturity for Next Month
+            SELECT
+                term.savings_account_id AS account_id,
+                client.id AS customer_id,
+                client.display_name AS customer_name,
+                term.deposit_amount,
+                term.maturity_amount,
+                term.maturity_date
+            FROM
+                m_deposit_account_term_and_preclosure term
+                    JOIN m_savings_account savings
+                         ON term.savings_account_id = savings.id
+                    JOIN m_client client
+                         ON savings.client_id = client.id
+            WHERE
+                term.maturity_date BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 MONTH);
+            ]]>
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>

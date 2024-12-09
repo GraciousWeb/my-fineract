@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements. See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership. The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License. You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied. See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+-->
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <changeSet id="report-customer-product-listing-1" author="fineract">
+        <preConditions onFail="MARK_RAN">
+            <!-- Add any necessary preconditions if required, like checking if the m_client table exists -->
+            <sqlCheck expectedResult="1">
+                SELECT COUNT(*) FROM m_client
+            </sqlCheck>
+        </preConditions>
+
+        <sql>
+            <![CDATA[
+            -- Report: Customer Product Listing with Transaction History
+            SELECT
+                c.id AS Client_ID,
+                c.display_name AS Client_Name,
+                txn.transaction_date AS Transaction_Date,
+                txn.amount AS Transaction_Amount,
+                CASE
+                    WHEN txn.transaction_type_enum = 1 THEN 'Active'
+                    WHEN txn.transaction_type_enum = 2 THEN 'Liquidated'
+                    ELSE 'Unknown'
+                    END AS Investment_Status,
+                acc.account_type_enum AS Account_Type,
+                txn.created_by AS Processor_ID,
+                p.name AS Product_Name
+            FROM
+                m_client c
+                    JOIN m_savings_account acc ON acc.client_id = c.id
+                    JOIN m_savings_account_transaction txn ON txn.savings_account_id = acc.id
+                    JOIN m_savings_product p ON acc.product_id = p.id
+            WHERE
+                txn.transaction_type_enum IN (1, 2)
+            ORDER BY
+                txn.transaction_date DESC;
+            ]]>
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>
