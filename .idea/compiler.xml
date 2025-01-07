@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.34/ec547ef414ab1d2c040118fb9c1c265ada63af14/lombok-1.18.34.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.6.3/52e345c907fbf173b376586c7f8b131d53fa5867/mapstruct-processor-1.6.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_core/2.35.1/7af595b3d403ac60f650078a26b8e12487cbb3a6/error_prone_core-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_check_api/2.35.1/6148967a70799093c8a14262ca68aa3e8f133f6a/error_prone_check_api-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotation/2.35.1/b374fa469a9934393d234a01506f36562f3022b8/error_prone_annotation-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_type_annotations/2.35.1/91f39f733094eaa8f2a35cb6c643647e92ff3a2e/error_prone_type_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.googlejavaformat/google-java-format/1.24.0/f8f958488c910b1d11c10a07e069d8113a2f9344/google-java-format-1.24.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pcollections/pcollections/4.0.1/59f3bf5fb28c5f5386804dcf129267416b75d7c/pcollections-4.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/1.2.2/9d38f10e22411681cf1d1ee3727e002af19f2c9e/auto-common-1.2.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.0-jre/25d6662e20fc04c7b38f8ca3ab5d2f4a19272f80/guava-32.0.0-jre.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.eisop/dataflow-errorprone/3.41.0-eisop1/3fc86eff95c549e42c41fd7c01c2a57ed46a5a94/dataflow-errorprone-3.41.0-eisop1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.9/25a0fcef915f663679fcdb447541c5d86a9be4ba/auto-value-annotations-1.9.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.1.8/24795585df8afaf70a2cd534786904ea5889c047/caffeine-3.1.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.35.1/c36f9e12192226278c2b163bf61990b131e59903/error_prone_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.25.5/5ae5c9ec39930ae9b5a61b32b93288818ec05ec1/protobuf-java-3.25.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0.1/ac86dacc0eb9285ea9d42eee6aad8629ca3a7432/auto-service-annotations-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/0.3.0/fc1a0c38a07667f2dbbece32164dac2d0056d205/jspecify-0.3.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.java-diff-utils/java-diff-utils/4.12/1a712a91324d566eef39817fc5c9980eb10c21db/java-diff-utils-4.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kevinstern/software-and-algorithms/1.0/5e77666b72c6c5dd583c36148d17fc47f944dfb5/software-and-algorithms-1.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.37.0/ba74746d38026581c12166e164bb3c15e90cc4ea/checker-qual-3.37.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar" />
+        </processorPath>
+        <module name="fineract.fineract-accounting.main" />
+        <module name="fineract.fineract-savings.main" />
+        <module name="fineract.fineract-tax.main" />
+        <module name="fineract.fineract-core.main" />
+        <module name="fineract.fineract-progressive-loan-embeddable-schedule-generator.main" />
+        <module name="fineract.fineract-report.main" />
+        <module name="fineract.fineract-provider.main" />
+        <module name="fineract.fineract-charge.main" />
+        <module name="fineract.fineract-investor.main" />
+        <module name="fineract.fineract-loan.main" />
+        <module name="fineract.fineract-branch.main" />
+        <module name="fineract.fineract-document.main" />
+        <module name="fineract.fineract-progressive-loan.main" />
+        <module name="fineract.fineract-rates.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_core/2.35.1/7af595b3d403ac60f650078a26b8e12487cbb3a6/error_prone_core-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_check_api/2.35.1/6148967a70799093c8a14262ca68aa3e8f133f6a/error_prone_check_api-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotation/2.35.1/b374fa469a9934393d234a01506f36562f3022b8/error_prone_annotation-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_type_annotations/2.35.1/91f39f733094eaa8f2a35cb6c643647e92ff3a2e/error_prone_type_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.googlejavaformat/google-java-format/1.24.0/f8f958488c910b1d11c10a07e069d8113a2f9344/google-java-format-1.24.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pcollections/pcollections/4.0.1/59f3bf5fb28c5f5386804dcf129267416b75d7c/pcollections-4.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/1.2.2/9d38f10e22411681cf1d1ee3727e002af19f2c9e/auto-common-1.2.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.0-jre/25d6662e20fc04c7b38f8ca3ab5d2f4a19272f80/guava-32.0.0-jre.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.eisop/dataflow-errorprone/3.41.0-eisop1/3fc86eff95c549e42c41fd7c01c2a57ed46a5a94/dataflow-errorprone-3.41.0-eisop1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.9/25a0fcef915f663679fcdb447541c5d86a9be4ba/auto-value-annotations-1.9.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.1.8/24795585df8afaf70a2cd534786904ea5889c047/caffeine-3.1.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.35.1/c36f9e12192226278c2b163bf61990b131e59903/error_prone_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.25.5/5ae5c9ec39930ae9b5a61b32b93288818ec05ec1/protobuf-java-3.25.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0.1/ac86dacc0eb9285ea9d42eee6aad8629ca3a7432/auto-service-annotations-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/0.3.0/fc1a0c38a07667f2dbbece32164dac2d0056d205/jspecify-0.3.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.java-diff-utils/java-diff-utils/4.12/1a712a91324d566eef39817fc5c9980eb10c21db/java-diff-utils-4.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kevinstern/software-and-algorithms/1.0/5e77666b72c6c5dd583c36148d17fc47f944dfb5/software-and-algorithms-1.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.37.0/ba74746d38026581c12166e164bb3c15e90cc4ea/checker-qual-3.37.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar" />
+        </processorPath>
+        <module name="fineract.fineract-progressive-loan.test" />
+        <module name="fineract.fineract-rates.test" />
+        <module name="fineract.fineract-branch.test" />
+        <module name="fineract.fineract-investor.test" />
+        <module name="fineract.fineract-savings.test" />
+        <module name="fineract.oauth2-tests.test" />
+        <module name="fineract.fineract-avro-schemas.test" />
+        <module name="fineract.fineract-client.test" />
+        <module name="fineract.fineract-provider.test" />
+        <module name="fineract.fineract-report.test" />
+        <module name="fineract.fineract-progressive-loan-embeddable-schedule-generator.test" />
+        <module name="fineract.fineract-core.test" />
+        <module name="fineract.fineract-charge.test" />
+        <module name="fineract.fineract-tax.test" />
+        <module name="fineract.twofactor-tests.test" />
+        <module name="fineract.fineract-accounting.test" />
+        <module name="fineract.fineract-loan.test" />
+        <module name="fineract.fineract-document.test" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.34/ec547ef414ab1d2c040118fb9c1c265ada63af14/lombok-1.18.34.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_core/2.35.1/7af595b3d403ac60f650078a26b8e12487cbb3a6/error_prone_core-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_check_api/2.35.1/6148967a70799093c8a14262ca68aa3e8f133f6a/error_prone_check_api-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotation/2.35.1/b374fa469a9934393d234a01506f36562f3022b8/error_prone_annotation-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_type_annotations/2.35.1/91f39f733094eaa8f2a35cb6c643647e92ff3a2e/error_prone_type_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.googlejavaformat/google-java-format/1.24.0/f8f958488c910b1d11c10a07e069d8113a2f9344/google-java-format-1.24.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pcollections/pcollections/4.0.1/59f3bf5fb28c5f5386804dcf129267416b75d7c/pcollections-4.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/1.2.2/9d38f10e22411681cf1d1ee3727e002af19f2c9e/auto-common-1.2.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.0-jre/25d6662e20fc04c7b38f8ca3ab5d2f4a19272f80/guava-32.0.0-jre.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.eisop/dataflow-errorprone/3.41.0-eisop1/3fc86eff95c549e42c41fd7c01c2a57ed46a5a94/dataflow-errorprone-3.41.0-eisop1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.9/25a0fcef915f663679fcdb447541c5d86a9be4ba/auto-value-annotations-1.9.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.1.8/24795585df8afaf70a2cd534786904ea5889c047/caffeine-3.1.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.35.1/c36f9e12192226278c2b163bf61990b131e59903/error_prone_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.25.5/5ae5c9ec39930ae9b5a61b32b93288818ec05ec1/protobuf-java-3.25.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0.1/ac86dacc0eb9285ea9d42eee6aad8629ca3a7432/auto-service-annotations-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/0.3.0/fc1a0c38a07667f2dbbece32164dac2d0056d205/jspecify-0.3.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.java-diff-utils/java-diff-utils/4.12/1a712a91324d566eef39817fc5c9980eb10c21db/java-diff-utils-4.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kevinstern/software-and-algorithms/1.0/5e77666b72c6c5dd583c36148d17fc47f944dfb5/software-and-algorithms-1.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.37.0/ba74746d38026581c12166e164bb3c15e90cc4ea/checker-qual-3.37.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar" />
+        </processorPath>
+        <module name="fineract.fineract-avro-schemas.main" />
+        <module name="fineract.twofactor-tests.main" />
+        <module name="fineract.fineract-e2e-tests-core.main" />
+        <module name="fineract.oauth2-tests.main" />
+        <module name="fineract.fineract-e2e-tests-runner.main" />
+        <module name="fineract.fineract-client.main" />
+        <module name="fineract.integration-tests.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_core/2.35.1/7af595b3d403ac60f650078a26b8e12487cbb3a6/error_prone_core-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.36/5a30490a6e14977d97d9c73c924c1f1b5311ea95/lombok-1.18.36.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_check_api/2.35.1/6148967a70799093c8a14262ca68aa3e8f133f6a/error_prone_check_api-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotation/2.35.1/b374fa469a9934393d234a01506f36562f3022b8/error_prone_annotation-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_type_annotations/2.35.1/91f39f733094eaa8f2a35cb6c643647e92ff3a2e/error_prone_type_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.googlejavaformat/google-java-format/1.24.0/f8f958488c910b1d11c10a07e069d8113a2f9344/google-java-format-1.24.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pcollections/pcollections/4.0.1/59f3bf5fb28c5f5386804dcf129267416b75d7c/pcollections-4.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/1.2.2/9d38f10e22411681cf1d1ee3727e002af19f2c9e/auto-common-1.2.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.0-jre/25d6662e20fc04c7b38f8ca3ab5d2f4a19272f80/guava-32.0.0-jre.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.eisop/dataflow-errorprone/3.41.0-eisop1/3fc86eff95c549e42c41fd7c01c2a57ed46a5a94/dataflow-errorprone-3.41.0-eisop1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.9/25a0fcef915f663679fcdb447541c5d86a9be4ba/auto-value-annotations-1.9.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.1.8/24795585df8afaf70a2cd534786904ea5889c047/caffeine-3.1.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.35.1/c36f9e12192226278c2b163bf61990b131e59903/error_prone_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.25.5/5ae5c9ec39930ae9b5a61b32b93288818ec05ec1/protobuf-java-3.25.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0.1/ac86dacc0eb9285ea9d42eee6aad8629ca3a7432/auto-service-annotations-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/0.3.0/fc1a0c38a07667f2dbbece32164dac2d0056d205/jspecify-0.3.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.java-diff-utils/java-diff-utils/4.12/1a712a91324d566eef39817fc5c9980eb10c21db/java-diff-utils-4.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kevinstern/software-and-algorithms/1.0/5e77666b72c6c5dd583c36148d17fc47f944dfb5/software-and-algorithms-1.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.37.0/ba74746d38026581c12166e164bb3c15e90cc4ea/checker-qual-3.37.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar" />
+        </processorPath>
+        <module name="fineract.fineract-e2e-tests-core.test" />
+        <module name="fineract.fineract-e2e-tests-runner.test" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_core/2.35.1/7af595b3d403ac60f650078a26b8e12487cbb3a6/error_prone_core-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.34/ec547ef414ab1d2c040118fb9c1c265ada63af14/lombok-1.18.34.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.6.3/52e345c907fbf173b376586c7f8b131d53fa5867/mapstruct-processor-1.6.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_check_api/2.35.1/6148967a70799093c8a14262ca68aa3e8f133f6a/error_prone_check_api-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotation/2.35.1/b374fa469a9934393d234a01506f36562f3022b8/error_prone_annotation-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_type_annotations/2.35.1/91f39f733094eaa8f2a35cb6c643647e92ff3a2e/error_prone_type_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.googlejavaformat/google-java-format/1.24.0/f8f958488c910b1d11c10a07e069d8113a2f9344/google-java-format-1.24.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pcollections/pcollections/4.0.1/59f3bf5fb28c5f5386804dcf129267416b75d7c/pcollections-4.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/1.2.2/9d38f10e22411681cf1d1ee3727e002af19f2c9e/auto-common-1.2.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.0-jre/25d6662e20fc04c7b38f8ca3ab5d2f4a19272f80/guava-32.0.0-jre.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.eisop/dataflow-errorprone/3.41.0-eisop1/3fc86eff95c549e42c41fd7c01c2a57ed46a5a94/dataflow-errorprone-3.41.0-eisop1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.9/25a0fcef915f663679fcdb447541c5d86a9be4ba/auto-value-annotations-1.9.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.1.8/24795585df8afaf70a2cd534786904ea5889c047/caffeine-3.1.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.35.1/c36f9e12192226278c2b163bf61990b131e59903/error_prone_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.25.5/5ae5c9ec39930ae9b5a61b32b93288818ec05ec1/protobuf-java-3.25.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0.1/ac86dacc0eb9285ea9d42eee6aad8629ca3a7432/auto-service-annotations-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/0.3.0/fc1a0c38a07667f2dbbece32164dac2d0056d205/jspecify-0.3.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.java-diff-utils/java-diff-utils/4.12/1a712a91324d566eef39817fc5c9980eb10c21db/java-diff-utils-4.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kevinstern/software-and-algorithms/1.0/5e77666b72c6c5dd583c36148d17fc47f944dfb5/software-and-algorithms-1.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.37.0/ba74746d38026581c12166e164bb3c15e90cc4ea/checker-qual-3.37.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar" />
+        </processorPath>
+        <module name="fineract.integration-tests.test" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure-processor/3.3.5/205d76d5af9aa6df1557ed654c3cd57865de68ed/spring-boot-autoconfigure-processor-3.3.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.3.5/33b9d3f722281e8f9dbbd284135ee8b9909c42cf/spring-boot-configuration-processor-3.3.5.jar" />
+        </processorPath>
+        <module name="fineract.custom.docker.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.34/ec547ef414ab1d2c040118fb9c1c265ada63af14/lombok-1.18.34.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.6.3/52e345c907fbf173b376586c7f8b131d53fa5867/mapstruct-processor-1.6.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure-processor/3.3.5/205d76d5af9aa6df1557ed654c3cd57865de68ed/spring-boot-autoconfigure-processor-3.3.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.3.5/33b9d3f722281e8f9dbbd284135ee8b9909c42cf/spring-boot-configuration-processor-3.3.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_core/2.35.1/7af595b3d403ac60f650078a26b8e12487cbb3a6/error_prone_core-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_check_api/2.35.1/6148967a70799093c8a14262ca68aa3e8f133f6a/error_prone_check_api-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotation/2.35.1/b374fa469a9934393d234a01506f36562f3022b8/error_prone_annotation-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_type_annotations/2.35.1/91f39f733094eaa8f2a35cb6c643647e92ff3a2e/error_prone_type_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.googlejavaformat/google-java-format/1.24.0/f8f958488c910b1d11c10a07e069d8113a2f9344/google-java-format-1.24.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pcollections/pcollections/4.0.1/59f3bf5fb28c5f5386804dcf129267416b75d7c/pcollections-4.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/1.2.2/9d38f10e22411681cf1d1ee3727e002af19f2c9e/auto-common-1.2.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.0-jre/25d6662e20fc04c7b38f8ca3ab5d2f4a19272f80/guava-32.0.0-jre.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.eisop/dataflow-errorprone/3.41.0-eisop1/3fc86eff95c549e42c41fd7c01c2a57ed46a5a94/dataflow-errorprone-3.41.0-eisop1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.9/25a0fcef915f663679fcdb447541c5d86a9be4ba/auto-value-annotations-1.9.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.1.8/24795585df8afaf70a2cd534786904ea5889c047/caffeine-3.1.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.35.1/c36f9e12192226278c2b163bf61990b131e59903/error_prone_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.25.5/5ae5c9ec39930ae9b5a61b32b93288818ec05ec1/protobuf-java-3.25.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0.1/ac86dacc0eb9285ea9d42eee6aad8629ca3a7432/auto-service-annotations-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/0.3.0/fc1a0c38a07667f2dbbece32164dac2d0056d205/jspecify-0.3.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.java-diff-utils/java-diff-utils/4.12/1a712a91324d566eef39817fc5c9980eb10c21db/java-diff-utils-4.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kevinstern/software-and-algorithms/1.0/5e77666b72c6c5dd583c36148d17fc47f944dfb5/software-and-algorithms-1.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.37.0/ba74746d38026581c12166e164bb3c15e90cc4ea/checker-qual-3.37.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar" />
+        </processorPath>
+        <module name="fineract.custom.acme.loan.processor.main" />
+        <module name="fineract.custom.acme.note.service.main" />
+        <module name="fineract.custom.acme.loan.cob.main" />
+        <module name="fineract.custom.acme.loan.starter.main" />
+        <module name="fineract.custom.acme.note.starter.main" />
+        <module name="fineract.custom.acme.event.starter.main" />
+        <module name="fineract.custom.acme.loan.job.main" />
+        <module name="fineract.custom.acme.event.externalevent.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_core/2.35.1/7af595b3d403ac60f650078a26b8e12487cbb3a6/error_prone_core-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.34/ec547ef414ab1d2c040118fb9c1c265ada63af14/lombok-1.18.34.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.6.3/52e345c907fbf173b376586c7f8b131d53fa5867/mapstruct-processor-1.6.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure-processor/3.3.5/205d76d5af9aa6df1557ed654c3cd57865de68ed/spring-boot-autoconfigure-processor-3.3.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.3.5/33b9d3f722281e8f9dbbd284135ee8b9909c42cf/spring-boot-configuration-processor-3.3.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_check_api/2.35.1/6148967a70799093c8a14262ca68aa3e8f133f6a/error_prone_check_api-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotation/2.35.1/b374fa469a9934393d234a01506f36562f3022b8/error_prone_annotation-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_type_annotations/2.35.1/91f39f733094eaa8f2a35cb6c643647e92ff3a2e/error_prone_type_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.googlejavaformat/google-java-format/1.24.0/f8f958488c910b1d11c10a07e069d8113a2f9344/google-java-format-1.24.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pcollections/pcollections/4.0.1/59f3bf5fb28c5f5386804dcf129267416b75d7c/pcollections-4.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/1.2.2/9d38f10e22411681cf1d1ee3727e002af19f2c9e/auto-common-1.2.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.0-jre/25d6662e20fc04c7b38f8ca3ab5d2f4a19272f80/guava-32.0.0-jre.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.eisop/dataflow-errorprone/3.41.0-eisop1/3fc86eff95c549e42c41fd7c01c2a57ed46a5a94/dataflow-errorprone-3.41.0-eisop1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.9/25a0fcef915f663679fcdb447541c5d86a9be4ba/auto-value-annotations-1.9.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.1.8/24795585df8afaf70a2cd534786904ea5889c047/caffeine-3.1.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.35.1/c36f9e12192226278c2b163bf61990b131e59903/error_prone_annotations-2.35.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.25.5/5ae5c9ec39930ae9b5a61b32b93288818ec05ec1/protobuf-java-3.25.5.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0.1/ac86dacc0eb9285ea9d42eee6aad8629ca3a7432/auto-service-annotations-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/0.3.0/fc1a0c38a07667f2dbbece32164dac2d0056d205/jspecify-0.3.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.java-diff-utils/java-diff-utils/4.12/1a712a91324d566eef39817fc5c9980eb10c21db/java-diff-utils-4.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kevinstern/software-and-algorithms/1.0/5e77666b72c6c5dd583c36148d17fc47f944dfb5/software-and-algorithms-1.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.37.0/ba74746d38026581c12166e164bb3c15e90cc4ea/checker-qual-3.37.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar" />
+        </processorPath>
+        <module name="fineract.custom.acme.event.starter.test" />
+        <module name="fineract.custom.acme.note.starter.test" />
+        <module name="fineract.custom.acme.loan.starter.test" />
+        <module name="fineract.custom.acme.loan.job.test" />
+        <module name="fineract.custom.acme.loan.cob.test" />
+        <module name="fineract.custom.acme.note.service.test" />
+        <module name="fineract.custom.acme.event.externalevent.test" />
+        <module name="fineract.custom.acme.loan.processor.test" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

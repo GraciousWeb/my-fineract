@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/fineract/buildSrc" name="buildSrc">
+                <projects>
+                  <project path="$PROJECT_DIR$/fineract/buildSrc" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/fineract" />
+        <option name="gradleJvm" value="20" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/fineract" />
+            <option value="$PROJECT_DIR$/fineract/buildSrc" />
+            <option value="$PROJECT_DIR$/fineract/custom" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme/event" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme/event/externalevent" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme/event/starter" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme/loan" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme/loan/cob" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme/loan/job" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme/loan/processor" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme/loan/starter" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme/note" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme/note/service" />
+            <option value="$PROJECT_DIR$/fineract/custom/acme/note/starter" />
+            <option value="$PROJECT_DIR$/fineract/custom/docker" />
+            <option value="$PROJECT_DIR$/fineract/fineract-accounting" />
+            <option value="$PROJECT_DIR$/fineract/fineract-avro-schemas" />
+            <option value="$PROJECT_DIR$/fineract/fineract-branch" />
+            <option value="$PROJECT_DIR$/fineract/fineract-charge" />
+            <option value="$PROJECT_DIR$/fineract/fineract-client" />
+            <option value="$PROJECT_DIR$/fineract/fineract-core" />
+            <option value="$PROJECT_DIR$/fineract/fineract-doc" />
+            <option value="$PROJECT_DIR$/fineract/fineract-document" />
+            <option value="$PROJECT_DIR$/fineract/fineract-e2e-tests-core" />
+            <option value="$PROJECT_DIR$/fineract/fineract-e2e-tests-runner" />
+            <option value="$PROJECT_DIR$/fineract/fineract-investor" />
+            <option value="$PROJECT_DIR$/fineract/fineract-loan" />
+            <option value="$PROJECT_DIR$/fineract/fineract-progressive-loan" />
+            <option value="$PROJECT_DIR$/fineract/fineract-progressive-loan-embeddable-schedule-generator" />
+            <option value="$PROJECT_DIR$/fineract/fineract-provider" />
+            <option value="$PROJECT_DIR$/fineract/fineract-rates" />
+            <option value="$PROJECT_DIR$/fineract/fineract-report" />
+            <option value="$PROJECT_DIR$/fineract/fineract-savings" />
+            <option value="$PROJECT_DIR$/fineract/fineract-tax" />
+            <option value="$PROJECT_DIR$/fineract/fineract-war" />
+            <option value="$PROJECT_DIR$/fineract/integration-tests" />
+            <option value="$PROJECT_DIR$/fineract/oauth2-tests" />
+            <option value="$PROJECT_DIR$/fineract/twofactor-tests" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
